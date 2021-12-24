@@ -105,19 +105,19 @@ body{
 }
 
 .sales__item-woman{
-    background-image: url(../img/for_woman.svg);
+    background-image: url(/img/for_woman.svg);
     background-repeat: no-repeat;
 }
 .sales__item-man{
-    background-image: url(../img/for_man.svg);
+    background-image: url(/img/for_man.svg);
     background-repeat: no-repeat;
 }
 .sales__item-kids{
-    background-image: url(../img/for_kids.svg);
+    background-image: url(/img/for_kids.svg);
     background-repeat: no-repeat;
 }
 .sales__item-shoes{
-    background-image: url(../img/accesories.svg);
+    background-image: url(/img/accesories.svg);
     background-repeat: no-repeat;
     width: 100%;
 }
