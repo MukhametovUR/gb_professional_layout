@@ -61,6 +61,16 @@ body {
     background: transparent;
 }
 
+.header__search:hover,
+.header__menu-btn:hover,
+.header__link:hover,
+.header__nav:hover,
+.header__menu-btn:hover {
+    display: inline-block;
+    border: 3px solid #F1A8B2;
+    border-radius: 5px;
+}
+
 .brand {
     display: flex;
     margin: 0 0 63px;
@@ -254,6 +264,11 @@ body {
     text-align: center;
 }
 
+.products__btn:hover {
+    background: #F26376;
+    color: #fff;
+}
+
 .content-info {
     background-color: #222224;
     color: #fff;
@@ -365,6 +380,11 @@ body {
     border-bottom-left-radius: 100px;
 }
 
+.support__subsribe-text:focus {
+    background: #fff;
+
+}
+
 .support__subsribe-btn {
     margin-left: -10px;
     color: #fff;
@@ -380,6 +400,15 @@ body {
     -moz-border-radius-bottomright: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
+}
+
+.support__subsribe-btn:hover {
+    border: 0px;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
 
 .footer {
