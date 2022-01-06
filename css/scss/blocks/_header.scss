@@ -1,0 +1,39 @@
+.header {
+background-color: #222222;
+min-height: 75px;
+
+    &__wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    &__logo-form-wrp {
+    display: flex;
+    }
+
+    &__search {
+    margin: 0 0 0 41px;
+    }
+
+    &__link {
+    margin: 0 0 0 33px;
+    }
+
+    &__menu-btn {
+    background: transparent;
+    }
+
+    &__search:hover,
+    &__menu-btn:hover,
+    &__link:hover,
+    &__nav:hover,
+    &__menu-btn:hover {
+    display: inline-block;
+    border: 3px solid #F1A8B2;
+    border-radius: 5px;
+    }
+    &__nav {
+    display: none;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "gb_professional_layout",
+  "version": "1.0.0",
+  "description": "link on the maket https://www.figma.com/file/7XhT5EWfZX0W6ohgd57Pny/shop?node-id=128%3A42",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^4.7.2",
+    "sass": "^1.46.0"
+  },
+  "scripts": {
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukhametovUR/gb_professional_layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MukhametovUR/gb_professional_layout/issues"
+  },
+  "homepage": "https://github.com/MukhametovUR/gb_professional_layout#readme"
+}
