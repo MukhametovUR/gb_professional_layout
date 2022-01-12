@@ -22,9 +22,9 @@
                 </div>
             </div>
             <div class="">
-                <button class="header__menu-btn">
+                <a class="header__menu-btn" href="javascript:void(0);" tabindex="1">
                     <img src="./img/burger.svg" alt="burger">
-                </button>
+                </a>
                 <a class="header__link" href="#">
                     <img src="./img/search.svg" alt="burger">
                 </a>
@@ -37,9 +37,9 @@
         <nav class="header__nav">
             <h2 class="header__nav-title">MENU</h2>
             <ul class="header__nav-list">
-                <li class="header__nav-item nav-sub-item">
-                    <a class="nav-sub-item__link" href="#">MAN</a>
-                    <ul class="nav-sub-item__list">
+                <li class="nav-sub__content">
+                    <a class="nav-sub-item__title" href="#">MAN</a>
+                    <ul class="header__nav-item nav-sub-item">
                         <li>
                             <a class="nav-sub-item__link" href="#">Accessories</a>
                         </li>
@@ -54,9 +54,9 @@
                         </li>
                     </ul>
                 </li>
-                <li class="header__nav-item nav-sub-item">
-                    <a class="nav-sub-item__link" href="#">WOMAN</a>
-                    <ul>
+                <li class="nav-sub__content">
+                    <a class="nav-sub-item__title" href="#">WOMAN</a>
+                    <ul class="header__nav-item nav-sub-item">
                         <li>
                             <a class="nav-sub-item__link" href="#">Accessories</a>
                         </li>
@@ -73,7 +73,9 @@
                             <a class="nav-sub-item__link" href="#">Shirts</a>
                         </li>
                     </ul>
-                    <a class="nav-sub-item__link" href="#">KIDS</a>
+                </li>    
+                <li class="nav-sub__content">
+                    <a class="nav-sub-item__title" href="#">KIDS</a>
                     <ul class="header__nav-item nav-sub-item">
                         <li>
                             <a class="nav-sub-item__link" href="#">Accessories</a>
@@ -271,6 +273,7 @@
             </li>
         </ul>
     </footer>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

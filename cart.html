@@ -30,7 +30,7 @@
                 </a>
 
                 <a class="header__link" href="#">
-                    <img src="./img/person.svg" alt="man">
+                    <img src="./img/track.svg" alt="man">
                 </a>
             </div>
         </div>
@@ -102,33 +102,56 @@
     </header>
     <main>
         <section class="">
-            <h1 class="reg-title">REGISTRATION</h1>
+            <h1 class="reg-title cart-title">SHOPPING CART</h1>
             <form action="#">
-                <div class="reg container">
-                    <div class="reg__inputs">
-                        <h3 class="reg-subtitle">Your Name</h3>
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                        <div class="reg__radio-btn">
-                            <input type="radio">Male
-                        <input type="radio">Female
-                        </div>
-                        <h3 class="reg-subtitle">Login details</h3>
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <p class="reg-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
-                        <button class="reg__btn">JOIN NOW</button>
+                <div class="container cart-container">
+                    <div class="left-content">
+                        <div class="cart-list">
+                            <div class="cart-item">
+                                <img src="/img/product-3.jpg" alt="">
+                                <div class="cart-item__block">
+                                    <h3 class="cart-item__title">MANGO  PEOPLE  T-SHIRT</h3>
+                                    <p class="cart-item__text">Price: <span>$300</span></p>
+                                    <p class="cart-item__text">Color: Red</p>
+                                    <p class="cart-item__text">Size: Xl</p>
+                                    <div class="cart-item__quantity">
+                                        <p class="cart-item__text">Quantity:</p>
+                                    <label class="quantity" for="">2</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-item">
+                                <img src="/img/product-7.jpg" alt="">
+                                <div class="cart-item__block">
+                                    <h3 class="cart-item__title">MANGO  PEOPLE  T-SHIRT</h3>
+                                    <p class="cart-item__text">Price: <span>$300</span></p>
+                                    <p class="cart-item__text">Color: Red</p>
+                                    <p class="cart-item__text">Size: Xl</p>
+                                    <div class="cart-item__quantity">
+                                        <p class="cart-item__text">Quantity:</p>
+                                    <label class="quantity" for="">2</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-btns-left">
+                                <a href="#" class="cart-btn__left">CLEAR SHOPPING CART</a>
+                                <a href="#" class="cart-btn__left">CONTINUE SHOPPING</a>
+                            </div>
+                        </div>                        
                     </div>
-                    <div class="reg__info">
-                        <h2 class="reg__info-subtitle">LOYALTY HAS ITS PERKS</h2>
-                        <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
-                        <ol class="reg-content__list">
-                            <li class="reg__item">15% off welcome offer</li>
-                            <li class="reg__item">Free shipping, returns and exchanges on all orders</li>
-                            <li class="reg__item">$10 off a purchase on your birthday</li>
-                            <li class="reg__item">Early access to products</li>
-                            <li class="reg__item">Exclusive offers & rewards</li>
-                        </ol>
+                    <div class="right-content">
+                        <h2 class="cart-content__title">SHIPPING ADRESS</h2>
+                        <div class="cart-inputs">
+                            <input type="text" class="cart-input" placeholder="Bangladesh">
+                            <input type="text" class="cart-input" placeholder="State">
+                            <input type="text" class="cart-input" placeholder="Postcode / Zip">
+                            <a href="#" class="btn-address">GET A QUOTE</a>
+                        </div>
+                        <div class="cart-total">
+                            <p class="cart-subtotal">SUB TOTAL  $900</p>
+                            <p class="cart-grandtotal">GRAND TOTAL <span>$900</span></p>
+                            <a href="#" class="cart-total__btn">PROCEED TO CHECKOUT</a>
+                        </div>
                     </div>
                 </div>
             </form>
