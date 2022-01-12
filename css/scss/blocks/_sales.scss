@@ -56,3 +56,33 @@
     }
 
 }
+
+@media (max-width: 767px){
+    .container{
+        width: 375px;
+
+    }
+
+    .brand__title-wrp{
+        display: block;
+        text-align: center;
+    }
+
+    .sales{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        // width: 375px;
+      
+    }
+    .sales{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}

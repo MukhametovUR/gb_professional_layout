@@ -37,3 +37,29 @@
     color: #F1A8B2;
     }
 }
+
+
+@media (max-width: 1599px){
+    .container{
+        width: 736px;
+        margin: 0 0 0 16px;
+    }
+    .brand__img{
+        height: 41%;
+        width: 41%;
+    }
+
+}
+
+@media (max-width: 767px){
+    .container{
+        // width: 375px;
+        // margin: 0 0 0 16px;
+    }
+
+    .brand__img{
+        display: none;
+    }
+}
+
+

@@ -31,3 +31,18 @@
         fill: #fff;
     }
 }
+
+
+@media (max-width: 767px){
+    .container{
+        // width: 375px;      
+    }
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .footer__icon{
+        padding: 10px 5%;
+    }
+}
