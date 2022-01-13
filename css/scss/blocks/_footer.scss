@@ -34,15 +34,16 @@
 
 
 @media (max-width: 767px){
-    .container{
-        // width: 375px;      
-    }
+
     .footer{
         display: flex;
         flex-direction: column-reverse;
         
     }
     .footer__icon{
-        padding: 10px 5%;
+        padding: 10px 10%;
+    }
+    .footer__list-icons{
+        justify-content: center;
     }
 }

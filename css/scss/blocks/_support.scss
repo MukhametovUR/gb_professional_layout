@@ -4,25 +4,24 @@
     width: 100%;
     height: 50%;
     z-index: 1;
-    background-image: url(/img/support_fon.png);
-    background-repeat: no-repeat;
+    background-image: url('/img/support_fon.png');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
 }
 
 .support{
     &__list {
+        padding-top: 100px;
         display: flex;
         justify-content: space-around;
     }
 
     &__item {
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        text-align: center;
     
     }
 
@@ -103,24 +102,22 @@
 
 
 @media (max-width: 1599px){
-    .container{
-        // width: 736px;
-    }
+
 }
 
 @media (max-width: 767px){
-    .container{
-        // width: 375px;
-    }
 
-    .brand__title-wrp{
-        display: block;
-        padding: 70px 10px;
-    }
     .support__list{
         padding: 0;
         flex-direction: column;
         align-items: center;
+    }
+    .support__item{
+        text-align: center;
+     }
+
+    .support__item-title{
+       text-align: center;
     }
 
 }

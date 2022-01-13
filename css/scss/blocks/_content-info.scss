@@ -39,9 +39,7 @@
 }
 
 @media (max-width: 1599px){
-    .container{
-        width: 736px;
-    }
+
     .content-info__list{
         flex-direction: column;
         margin: 0;
@@ -55,9 +53,7 @@
 }
 
 @media (max-width: 767px){
-    .container{
-        // width: 375px;
-    }
+
     .content-info__list{
         flex-direction: column;
         margin: 48px 30px;
