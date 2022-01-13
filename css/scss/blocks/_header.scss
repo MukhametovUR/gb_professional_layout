@@ -36,6 +36,40 @@
     
 }
 
+
+.basket{
+    position: relative;
+}
+
+.products-table{
+    right: 0;
+    position: absolute;
+    // display: none;
+}
+
+.table-column{
+    padding: 2px 25px;
+}
+.table-item{
+    text-align: center;
+}
+
+.add__product{
+    font-size: 20px;
+    right: -8px;
+    top:-20px;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #F16D7F;
+}
+
+.products-table{
+    background: #fff;
+}
+
+
 @media (max-width: 1499px){
     .container{
         width: 675px;
