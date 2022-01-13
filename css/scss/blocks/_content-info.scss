@@ -49,9 +49,7 @@
     .content-info__item{
         margin: 20px 50px;
     }
-    .content-info__text{
-        max-width: 350px;
-    }
+    
 }
 
 @media (max-width: 767px){
@@ -63,7 +61,7 @@
         margin: 48px 30px;
     }
     .content-info__item{
-        margin: 20px 0;
+        margin: 0;
     }
 
 }

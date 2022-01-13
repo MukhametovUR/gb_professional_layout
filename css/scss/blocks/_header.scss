@@ -41,14 +41,14 @@
         // width: 736px;
     }
     .header{
-        max-width: 1500px;
+        
     }
 }
 
 @media (max-width: 767px){
 
     .container{
-        width: 375px; 
+        width: 0; 
     }
     .brand__title{
         padding: 150px 100px;

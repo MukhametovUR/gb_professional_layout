@@ -1,12 +1,14 @@
 .sales {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
 }
 .sales {
         &__list {
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
+        
     }
 
         &__item {
@@ -17,6 +19,8 @@
         justify-content: center;
         margin: 30px 0 0 0;
         flex-direction: column;
+        border: 1px solid #000;
+
     }
 
         &__item-woman {
@@ -75,13 +79,19 @@
 }
 
 @media (max-width: 767px){
-    .container{
-        // width: 375px;
-      
-    }
+    
     .sales{
         display: flex;
-        justify-content: center;
+        justify-content: none;
+        flex-wrap: wrap;
+        
+    }
+    .sales__list{
+        display: flex;
+        flex-direction: column;
+    }
+    .sales__item{
+        margin: 0;
     }
 
 
