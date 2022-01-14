@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../blocks/nav-sub-item.scss"
-    ],
-    "names": [],
-    "file": "nav-sub-item.css"
-}
