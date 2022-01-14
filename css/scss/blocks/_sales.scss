@@ -19,22 +19,22 @@
     }
 
         &__item-woman {
-        background: url('/img/for_woman.svg');
-        background-repeat: no-repeat;
+            background-image: url(/img/for_woman.svg);        
+            background-repeat: no-repeat;
     }
 
         &__item-man {
-        background: url('/img/for_man.svg');
+            background-image: url(/img/for_man.svg);        
         background-repeat: no-repeat;
     }
 
         &__item-kids {
-        background: url('/img/for_kids.svg');
+            background-image: url(/img/for_kids.svg);        
         background-repeat: no-repeat;
     }
 
         &__item-shoes {
-        background: url('/img/accesories.svg');
+            background-image: url(/img/accesories.svg);        
         background-repeat: no-repeat;
         width: 100%;
     }
