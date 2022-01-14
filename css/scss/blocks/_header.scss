@@ -44,7 +44,12 @@
 .products-table{
     right: 0;
     position: absolute;
-    // display: none;
+    background: #fff;
+    display: none;
+}
+
+.table-active{
+    display: block;
 }
 
 .table-column{
@@ -65,9 +70,7 @@
     background-color: #F16D7F;
 }
 
-.products-table{
-    background: #fff;
-}
+
 
 
 @media (max-width: 1499px){
