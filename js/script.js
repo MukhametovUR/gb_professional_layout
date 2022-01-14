@@ -1,13 +1,13 @@
 'use strict';
+//Show-hide navigation-menu
 let headerMenuBtn = document.querySelector('.header__menu-btn'),
     headerNav = document.querySelector('.header__nav');
-headerMenuBtn.addEventListener('click', function() {
+    headerMenuBtn.addEventListener('click', function() {
     headerNav.style.display == 'none'? headerNav.style.display = 'block': headerNav.style.display = 'none'; 
 });
 
-
+//Add products in the basket
 let product = document.querySelectorAll('.products__item'),
-    basket = document.querySelector('.basket'),
     addProduct = document.querySelector('.add__product'),
     table = document.querySelector('.table-insert'),
     count = 0,
