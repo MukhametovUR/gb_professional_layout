@@ -91,10 +91,16 @@
     text-decoration: none;
     color: #F26376;
     margin: 63px auto 109px auto;
+    white-space: nowrap;
     text-align: center;
 }
 
 .products__btn:hover {
     background: #F26376;
     color: #fff;
+}
+
+.cart-title > div >span{
+    color: #636363;
+    opacity: 0.5;
 }
