@@ -24,6 +24,8 @@
     box-shadow: #000;
     z-index: 1;
     padding: 0 70px 50px 30px;
+    box-shadow: 3px 3px 2px 3px rgba(131, 131, 133, 0.1);
+
 }
 .filter-item__title{
     text-decoration: none;
@@ -62,7 +64,26 @@
     border: none;
     color: #000;
 }
+.filter__subitem{
+    position: relative;
+}
+.filter__subitem-nav{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    padding-right: 30px;
+    white-space: nowrap;
+    box-shadow: 3px 3px 2px 3px rgba(131, 131, 133, 0.1);
+}
+.filter__subitem-item{
+    padding-left: 20px;
+}
+.filter__subitem-nav-item{
+    padding: 5px 0 0 15px;
+    opacity: 0.7;
 
+}
 
 
 
