@@ -33,17 +33,18 @@
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
-    .footer{
+    .footer {
         display: flex;
-        flex-direction: column-reverse;
-        
+        flex-direction: column-reverse;        
     }
-    .footer__icon{
+
+    .footer__icon {
         padding: 10px 10%;
     }
-    .footer__list-icons{
+
+    .footer__list-icons {
         justify-content: center;
     }
 }

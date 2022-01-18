@@ -56,20 +56,22 @@
 
 }
 
-@media (max-width: 1499px){
-    .sales__item{
+@media (max-width: 1499px) {
+    .sales__item {
        display: flex;
        margin-left: 10px;
        flex: 1 0 215px;
     }
 }
-@media (max-width: 767px){
 
-    .sales{
+@media (max-width: 767px) {
+
+    .sales {
         display: flex;
         justify-content: center;
     }
-    .sales__list{
+    
+    .sales__list {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
