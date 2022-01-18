@@ -1,0 +1,42 @@
+.header {
+    background-color: #222222;
+    padding: 20px 0;
+    &__wrp {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+
+    }
+
+    &__logo-form-wrp {
+        display: flex;
+    }
+
+    &__search {
+        margin: 0 0 0 41px;
+    }
+
+    &__link {
+        margin: 0 0 0 33px;
+    }
+
+    &__menu-btn {
+        background: transparent;
+    }
+    
+}
+
+@media (max-width: 1499px){
+    .container{
+        width: 675px;
+    }
+    .brand__title{
+        padding: 150px 5px;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        width: 375px;
+    }    
+}
