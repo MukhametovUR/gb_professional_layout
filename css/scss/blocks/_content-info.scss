@@ -1,8 +1,6 @@
 .content-info {
     background-color: #222224;
     color: #fff;
-
-
     &__list {
         display: flex;
         margin: 0 230px;
@@ -38,27 +36,29 @@
     }
 }
 
-@media (max-width: 1599px){
+@media (max-width: 1599px) {
 
-    .content-info__list{
+    .content-info__list {
         flex-direction: column;
         margin: 0;
     }
-    .content-info__item{
+
+    .content-info__item {
         margin: 20px 50px;
     }
-    .content-info__text{
+
+    .content-info__text {
         max-width: 350px;
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
-    .content-info__list{
+    .content-info__list {
         flex-direction: column;
-        margin: 48px 30px;
+        margin: 0 30px;
     }
-    .content-info__item{
+    .content-info__item {
         margin: 20px 0;
     }
 

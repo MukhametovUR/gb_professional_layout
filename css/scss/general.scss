@@ -21,18 +21,12 @@ body {
     margin: -1px;
 }
 
-@media (max-width: 1599px){
-    .container{
-        // width: 736px;
-    }
+@media (max-width: 1599px) {
+
 }
 
-@media (max-width: 767px){
-    .container{
-        // width: 375px;
-    }
-
-    .brand__title-wrp{
+@media (max-width: 767px) {
+    .brand__title-wrp {
         display: block;
         padding: 70px 10px;
     }
