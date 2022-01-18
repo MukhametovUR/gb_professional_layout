@@ -2,16 +2,14 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 50%;
     z-index: 1;
     background-image: url('/img/support_fon.png');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
-
 }
 
-.support{
+.support {
     &__list {
         padding-top: 100px;
         display: flex;
@@ -82,10 +80,9 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 17px;
-        padding: 8px 17px 8px 20px;
+        padding: 10px 17px 8px 20px;
         background-color: #E05C6E;
-        border: 0px;
-
+        border: 0;
         -webkit-border-top-right-radius: 100px;
         -webkit-border-bottom-right-radius: 100px;
         -moz-border-radius-topright: 100px;
@@ -101,26 +98,33 @@
 }
 
 
-@media (max-width: 1599px){
+@media (max-width: 1599px) {
 
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
+    .support {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-    .support__list{
+    .support__list {
         padding: 0;
+        padding-top: 100px;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 50px;
-
     }
-    .support__item{
+
+    .support__item {
         text-align: center;
      }
 
-    .support__item-title{
+    .support__item-title {
        text-align: center;
     }
-    
 
+    .support {
+        height: 50%;
+    }   
 }
