@@ -1,6 +1,7 @@
 .brand {
     display: flex;
     margin: 0 0 3px;
+    
 }
 
 .brand {
@@ -14,6 +15,7 @@
 
     &__title {
     @include font(48px,58px, 900);
+    border-left: 12px solid #F16D7F;
     }   
 
     &__subtitle {
@@ -62,5 +64,10 @@
     .brand__title-wrp {
         justify-content: center;
         text-align: center;
+        padding: 30px;
     }
+    .brand__title {
+        border-left: none;
+    }
+
 }
