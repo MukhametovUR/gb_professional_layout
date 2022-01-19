@@ -19,22 +19,22 @@
     }
 
         &__item-woman {
-            background-image: url(../img/for_woman.jpg);        
+            background-image: url(/img/for_woman.jpg);        
             background-repeat: no-repeat;
     }
 
         &__item-man {
-            background-image: url(../img/for_man.jpg);        
+            background-image: url(/img/for_man.jpg);        
         background-repeat: no-repeat;
     }
 
         &__item-kids {
-            background-image: url(../img/for_kids.jpg);        
+            background-image: url(/img/for_kids.jpg);        
         background-repeat: no-repeat;
     }
 
         &__item-shoes {
-            background-image: url(../img/for_legs.jpg);        
+            background-image: url(/img/for_legs.jpg);        
         background-repeat: no-repeat;
         width: 100%;
     }
@@ -52,6 +52,12 @@
         font-weight: 900;
         line-height: 22px;
     }
+}
+.sales__item-up{
+    text-align: center;
+}
+.sales__item-up:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 1499px) {
