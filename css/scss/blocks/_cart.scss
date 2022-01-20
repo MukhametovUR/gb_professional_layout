@@ -80,6 +80,16 @@
     margin: 0 auto;
 }
 
+.cart__btn-left:hover {
+    color: #fff;
+    background: #F16D7F;
+}
+
+.cart__btn-left:focus {
+    color: #fff;
+    background: red;
+}
+
 .cart__right-content {
     flex-grow: 1;
 }
@@ -104,6 +114,14 @@
     border: 1px solid #A4A4A4;
 }
 
+.cart__input:focus {
+    opacity: 0.5;
+}
+
+.cart__input:hover {
+    background: rgb(186, 206, 164);
+}
+
 .btn__address {
     width: 70px;
     height: 13px;
@@ -113,6 +131,12 @@
     font-size: 11px;
     font-weight: 300;
     line-height: 13px;
+}
+
+.btn__address:hover {
+    color: #fff;
+    background-color: green;
+
 }
 
 .cart__total {
@@ -151,6 +175,11 @@
     line-height: 19px;
     padding: 15px 30px;
     background: #F16D7F;
+}
+
+.cart__total-btn:hover {
+    background-color: green;
+    font-size: 20px;
 }
 
 @media (max-width: 1499px) {
