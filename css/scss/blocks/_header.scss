@@ -26,6 +26,24 @@
     
 }
 
+.header__search img:hover,
+.header__menu-btn img:hover,
+.header__link img:hover{
+    background:rgb(0, 183, 255);
+    border-radius: 5px;
+
+}
+.header__search img:focus,
+.header__menu-btn img:focus,
+.header__link img:focus{
+    border:1px solid red;
+}
+.header__search img:active,
+.header__menu-btn img:active,
+.header__link img:active{
+    border:1px solid greenyellow;
+}
+
 @media (max-width: 1499px) {
     .container {
         width: 675px;
