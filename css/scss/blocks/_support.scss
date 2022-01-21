@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    background-image: url('/img/support_fon.png');
+    background-image: url(../img/support_fon.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -69,18 +69,21 @@
     }
 
     &__subsribe-text:focus {
-        background: #fff;
+        background: rgb(255, 250, 219);
+    }
 
+    &__subsribe-text:hover {
+        background: #fff;
     }
 
     &__subsribe-btn {
         margin-left: -10px;
         color: #fff;
-        height: 49px;
+        height: 53px;
         font-size: 14px;
         font-weight: 400;
         line-height: 17px;
-        padding: 10px 17px 8px 20px;
+        padding: 1px 17px 1px 20px;
         background-color: #E05C6E;
         border: 0;
         -webkit-border-top-right-radius: 100px;

@@ -42,7 +42,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url(/img/track.svg) no-repeat 10px;    
+    background: url(../img/track.svg) no-repeat 10px;    
     padding: 14px 16px 15px 50px;
     border: 1px solid #fff;    
     color: #fff;
@@ -81,17 +81,18 @@
     margin: 0 0 50px 0;
 }
 
+.products__wrp-btn {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
 .products__btn {
-    display: block;
-    max-width: 150px;
     padding: 15px 50px;
-    /*отступы внутри*/
     border: 1px solid #FF6A6A;
     text-decoration: none;
-    color: #F26376;
-    margin: 63px auto 109px auto;
+    color: #F26376;    
     white-space: nowrap;
-    text-align: center;
 }
 
 .products__btn:hover {

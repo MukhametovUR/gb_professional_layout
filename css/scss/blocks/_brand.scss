@@ -66,8 +66,18 @@
         text-align: center;
         padding: 30px;
     }
+
     .brand__title {
-        border-left: none;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 46px;
+        margin: 100px 0;
+    }
+
+    .brand__subtitle {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
     }
 
 }
