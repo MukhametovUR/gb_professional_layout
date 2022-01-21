@@ -10,20 +10,33 @@
 
     &__logo-form-wrp {
         display: flex;
+        flex-grow: 1;
     }
 
     &__search {
         margin: 0 0 0 41px;
+        display: flex;
+        flex-grow: 1;
     }
-
+    
+    &__search input {
+        display: flex;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        background: rgb(53, 53, 53);
+        margin-right: 20px;
+    }
+    
+    .header__menu-links {
+        flex-grow: 0;
+    }
     &__link {
         margin: 0 0 0 33px;
     }
 
     &__menu-btn {
         background: transparent;
-    }
-    
+    }    
 }
 
 .header__search img:hover,
@@ -53,5 +66,13 @@
 @media (max-width: 767px) {
     .container{
         width: 375px;
-    }    
+    }
+
+    .header__search {
+        flex-grow: 0;
+    }
+
+    .header__link {
+        display: none;
+    }
 }
