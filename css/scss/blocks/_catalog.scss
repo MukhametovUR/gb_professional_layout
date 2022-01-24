@@ -115,10 +115,6 @@
 }
 
 @media (max-width: 1499px) {
-    .container {
-        width: 765px;
-    }
-
     .catalog__list {
        display: grid;
        grid-template-rows: repeat(2, 1fr);
