@@ -12,9 +12,9 @@ headerMenuBtn.addEventListener('click', function() {
     headerNav.style.display == 'none'? headerNav.style.display = 'block': headerNav.style.display = 'none'; 
 });
 
-filterBtn.addEventListener('click', function() {
-    mainFilter.style.display == 'none'? mainFilter.style.display = 'block': mainFilter.style.display = 'none'; 
-});
+// filterBtn.addEventListener('click', function() {
+//     mainFilter.style.display == 'none' ? mainFilter.style.display = 'block' : mainFilter.style.display = 'none'; 
+// });
 
 subFilter.forEach(btn =>{
     btn.addEventListener('click', function() {
