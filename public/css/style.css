@@ -425,7 +425,7 @@ a {
 }
 
 .sales__item {
-  width: 360px;
+  min-width: 250px;
   min-height: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -545,12 +545,11 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 230px;
+  margin: 0 auto;
 }
 
 .products__item {
-  width: 380px;
-  margin: 0 0 0 10px;
+  max-width: 380px;
 }
 
 .products__item-content {
