@@ -8,7 +8,9 @@ body {
     width: 1140px;
     margin: 0 auto;
 }
-
+main {
+    align-items: center;
+}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -18,7 +20,6 @@ body {
     border: 0;
     padding: 0;
     clip-path: inset(50%);
-    margin: -1px;
 }
 
 @media (max-width: 1599px) {
